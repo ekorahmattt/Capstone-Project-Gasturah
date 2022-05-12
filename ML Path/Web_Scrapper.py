@@ -8,7 +8,8 @@ import requests
 import io
 import time
 
-PATH = "C:\\Users\\erdar\\Desktop\\ML Path\\Web Scrapping\\chromedriver.exe"    
+# Web driver location
+PATH = "C:\\Users\\erdar\\Desktop\\Capstone-Project-Gasturah\\ML Path\\chromedriver.exe"    
 
 # Get Image From Google Image Function
 def get_images(wd, delay, max_img, url):
@@ -66,7 +67,7 @@ def download_images(url, download_path, file_name):
 
 #____________________________________________________
 # Put your target url / Link google image which your select   
-url = "https://www.google.com/search?q=monas&tbm=isch&ved=2ahUKEwjJwc3khtf3AhWNGbcAHZvqBHAQ2-cCegQIABAA&oq=monas&gs_lcp=CgNpbWcQAzIHCAAQsQMQQzIHCAAQsQMQQzILCAAQgAQQsQMQgwEyCAgAEIAEELEDMggIABCxAxCDATIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIICAAQgAQQsQMyCwgAEIAEELEDEIMBOgcIIxDvAxAnOgQIABBDOgQIABADOgoIABCxAxCDARBDUJ4FWLoIYIkRaABwAHgAgAG9CIgBiRaSAQU2LTIuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=AHd7YsnBHo2z3LUPm9WTgAc"
+url = "https://www.google.com/search?q=candi+borobudur&sxsrf=ALiCzsZTvtsu-YGQoHtU2RkWY3etFDwcxA:1652332195148&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjLwauMmdn3AhU9TmwGHY-LDAcQ_AUoAnoECAEQBA" 
 
 wd = webdriver.Chrome(PATH)
 
@@ -74,6 +75,6 @@ data = get_images(wd, 1, 10, url) # 10 is max_images will downloaded, you can mo
 
 for i, pict in enumerate(data):
     # You should create a folder before you download images in same folder
-    download_images(pict, "Monas/", str(i) +".jpg") # Monas/ is folder name
+    download_images(pict, "Monas/", str(i) +".jpg") # Monas/ is folder name, parameters 2
 
 wd.quit()
