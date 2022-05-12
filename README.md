@@ -1,14 +1,16 @@
 # Capstone-Project-Gasturah
 Capstone-Project-Gasturah 
 
+Capstone Project Bangkit 2022
+
 # ML-Path
-- Eko 
-- Reza
+- Eko   - Universitas Mulawarman 
+- Reza  - Universitas Budi Luhur
 
 # MD-Path
-- Arman
-- Rubi
+- Arman	- Universitas Mulawarman
+- Rubi	- Universitas Budi Luhur
 
 # CC-Path
-- Daffa
-- Farel
+- Daffa	- Universitas Mulawarman
+- Farel	- Universitas Indonesia
