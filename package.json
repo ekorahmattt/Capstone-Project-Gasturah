@@ -1,0 +1,27 @@
+{
+  "name": "capstone-project-gasturah",
+  "version": "1.0.0",
+  "description": "Capstone-Project-Gasturah",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Echo271/Capstone-Project-Gasturah.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Echo271/Capstone-Project-Gasturah/issues"
+  },
+  "homepage": "https://github.com/Echo271/Capstone-Project-Gasturah#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "nodemon": "^2.0.16"
+  }
+}
