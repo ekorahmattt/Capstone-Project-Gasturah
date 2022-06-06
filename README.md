@@ -14,3 +14,7 @@ Capstone Project Bangkit 2022
 # CC-Path
 - Daffa	- Universitas Mulawarman
 - Farel	- Universitas Indonesia
+
+
+File save model ML :
+<a href="https://drive.google.com/drive/folders/1zTd7XtX2wz_ujjCIKtDqN_0PXUhazUC-?usp=sharing"> Save Model </a>
