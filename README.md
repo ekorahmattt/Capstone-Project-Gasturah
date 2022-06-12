@@ -8,7 +8,7 @@ Gasturah is a mobile-based app to help tourists recognize historical sites. Gast
 - Eko   - Universitas Mulawarman 
 - Reza  - Universitas Budi Luhur
 
-#Machine Learning
+<h3>Machine Learning</h3>
 
 Here is our ML workflow
 1. Dataset
@@ -18,12 +18,13 @@ We collecting historical site images from google images with web scraping. We go
 2. Build Model
 
 We build the model with TensorFlow. We use the Convolutional Neural Network method in our models. With images size 150, batch size 32, and 4 convolution layers like this.
-<img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/summary.png" alt="Summary">
+<img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/summary.png" alt="Summary" height="8em">
 We use adam optimizers with a learning rate of 0.0001 and we got 93% accuracy in the training set. You can look at the accuracy in here.
 <img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/accuracy.png">
 <img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/loss.png">
 So we did the testing set with evaluate method from the testing data and we got an 83% accuracy.
-<img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/evaluate.png">
+<img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/evaluate.png" height="8em">
+<a href='https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Path/Model_Gasturah.ipynb'>Click here is if you want to see more detail our model</a>
 
 3. Save model
 
