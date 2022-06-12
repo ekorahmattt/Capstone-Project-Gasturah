@@ -24,13 +24,13 @@ We use adam optimizers with a learning rate of 0.0001 and we got 93% accuracy in
 <img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/accuracy.png">
 <img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/loss.png"><br>
 So we did the testing set with evaluate method from the testing data and we got an 83% accuracy.<br>
-<img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/evaluate.png" width="700em">
+<img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/evaluate.png" width="700em"><br>
 <a href='https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Path/Model_Gasturah.ipynb'>Click here is if you want to see more detail our model</a>
 
 3. Save model
 
 Before we save the model, we did simulation with random images to predict the image.<br>
-<img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/simulate.png" height="180em"><br>
+<img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/simulate.png" height="400em"><br>
 we create saved model as a folder. <a href="https://github.com/Echo271/Capstone-Project-Gasturah/tree/main/Saved%20Model">Here our saved model.</a>
 
 # MD-Path
