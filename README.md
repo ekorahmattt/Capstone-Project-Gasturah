@@ -13,7 +13,7 @@ Gasturah is a mobile-based app to help tourists recognize historical sites. Gast
 Here is our ML workflow
 1. Dataset
 
-We collecting historical site images from google images with web scraping. We got 20000s images with 10 classes or sites with 2000s images in each class. <a href='https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Path/Web_Scrapper.py'> here is our web scraping script </a>. After getting and cleaning the dataset, we add augmentation to the dataset. <a href='https://drive.google.com/drive/folders/19Eq4rbeE2pYo0kwzD9v7bEL93rHCIP8M?usp=sharing'>here is if you want to see our dataset</a>. And then we split the dataset into 3 pieces 85% training data, 10% validation data, and 5% testing data.
+We collecting historical site images from google images with web scraping. We got 20000s images with 10 classes or sites with 2000s images in each class. <a href='https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Path/Web_Scrapper.py'> here is our web scraping script </a>.<br><img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/dataset.PNG"><br> After getting and cleaning the dataset, we add augmentation to the dataset.<br><img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/augment.PNG"><br> <a href='https://drive.google.com/drive/folders/19Eq4rbeE2pYo0kwzD9v7bEL93rHCIP8M?usp=sharing'>here is if you want to see our dataset</a>. And then we split the dataset into 3 pieces 85% training data, 10% validation data, and 5% testing data.<br><img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/split dataset.PNG">
 
 2. Build Model
 
