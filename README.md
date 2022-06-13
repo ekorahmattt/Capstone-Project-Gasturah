@@ -4,9 +4,7 @@ Capstone Project Bangkit 2022
 
 Gasturah is a mobile-based app to help tourists recognize historical sites. Gasturah is a mean "Gas To Situs Bersejarah" which a have 3 features such as historical site detection, search location, and take share.
 
-# ML-Path
-- Eko   - Universitas Mulawarman 
-- Reza  - Universitas Budi Luhur
+
 
 <h3>Machine Learning</h3>
 
@@ -32,6 +30,24 @@ So we did the testing set with evaluate method from the testing data and we got 
 Before we save the model, we did simulation with random images to predict the image.<br>
 <img src="https://github.com/Echo271/Capstone-Project-Gasturah/blob/main/ML%20Assets/simulate.png" height="400em"><br>
 we create saved model as a folder. <a href="https://github.com/Echo271/Capstone-Project-Gasturah/tree/main/Saved%20Model">Here our saved model.</a>
+
+4. Android Repository
+    https://github.com/Lasteinsa/app_package_gasturah
+5. Cloud Computing
+  - Repository
+    https://github.com/FarrelAlfarabi/Gasturah-Cloud
+  - Endpoint 1
+    https://gasturah.as.r.appspot.com/
+  - Endpoint 2
+    http://20.89.151.13/
+  - Database
+    http://20.89.151.13/phpmyadmin/
+7. Figma Design
+  https://www.figma.com/file/QRNvDrjtPEjN7aZWAMbGSl/Fix-Model?node-id=0%3A1
+  
+# ML-Path
+- Eko   - Universitas Mulawarman 
+- Reza  - Universitas Budi Luhur
 
 # MD-Path
 - Arman	- Universitas Mulawarman
